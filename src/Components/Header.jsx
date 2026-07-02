@@ -1,12 +1,12 @@
-import img from '../assets/Globe.png'
+import img from "../assets/Globe.png";
 
-function Header(){
- return(
+function Header() {
+  return (
     <header>
-        <img src={img} alt="Globe" />
-        <span>My travel journal</span>
+      <img src={img} alt="Globe" />
+      <span>my travel journal.</span>
     </header>
- )
+  );
 }
 
-export default Header
+export default Header;
